@@ -3,9 +3,13 @@ title: Fysioblauw 2
 subtitle: Documentatie
 email: saltycodeproductions@gmail.com
 description: Alle documentatie voor Fysioblauw 2 op een rijtje.
-baseurl: "/" # the subpath of your site, e.g. /blog
+baseurl: "/Fysioblauw2.Documentation" # the subpath of your site, e.g. /blog
 url: # the base hostname & protocol for your site
 author: Salty Code Productions (KvK)
+
+favicon: /assets/icons/favicon.ico
+logo: /assets/icons/favicon.ico
+
 street_address:
 city:
 state:
@@ -44,3 +48,6 @@ exclude:
 - LICENSE.md
 - CONTRIBUTING.md
 - README.md 
+- .jekyll-cache
+- Gemfile
+- Gemfile.lock
