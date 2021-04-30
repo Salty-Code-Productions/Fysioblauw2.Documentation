@@ -1,8 +1,8 @@
 ---
 layout: page
 title: Agenda
-description: Alle uitleg over de agenda
-image: assets/images/agenda.png
+description: Behandelingen en facturen beheren
+image: assets/images/agenda/agenda.png
 nav-menu: true
 ---
 
@@ -16,7 +16,7 @@ nav-menu: true
 			<h1>Agenda</h1>
 		</header>
 
-<span class="image fit"><img src="{% link assets/images/agenda.png %}" alt="" /></span>
+<span class="image fit"><img src="{% link assets/images/agenda/agenda.png %}" alt="" /></span>
 
 <!-- Content -->
 <h2 id="content">Introductie</h2>
@@ -43,13 +43,17 @@ nav-menu: true
 	</dd>
 	<dt>Week</dt>
 	<dd>
-		<p>Deze weergavemodus is de combinatie van 7 dag weergaven - elke weekdag respectievelijk. In de instellingen kan ingesteld worden welke dag de begindag van de week moet zijn. Omdat in deze weergavemodus meerdere dagen weergegeven worden, is slechts de begin- en eindtijd van de behandeling in combinatie van de patiëntnaam zichtbaar.</p>
+		<p><span class="image right"><img src="{% link assets/images/agenda/week.png%}" alt="" /></span>Deze weergavemodus is de combinatie van 7 dag weergaven - elke weekdag respectievelijk. In de instellingen kan ingesteld worden welke dag de begindag van de week moet zijn. Omdat in deze weergavemodus meerdere dagen weergegeven worden, is slechts de begin- en eindtijd van de behandeling in combinatie van de patiëntnaam zichtbaar.</p>
 	</dd>
 	<dt>Maand</dt>
 	<dd>
-		<p>De maand-weergavemodus bied een snel overzicht van alle behandelingen binnen de geselecteerde maand.</p>
+		<!-- IMAGE NEEDS UPDATEING!-->
+		<p><span class="image right"><img src="{% link assets/images/agenda/maand.png%}" alt="" /></span>De maand-weergavemodus bied een snel overzicht van alle behandelingen binnen de geselecteerde maand. Elke dag is aan te klikken. Wanneer dit gebeurt wordt er automatisch overgeschakeld naar de dag-weergave van de geselecteerde dag.</p>
 	</dd>
 </dl>
+
+<h3>Datum navigatie</h3>
+
 
 </div>
 </section>
