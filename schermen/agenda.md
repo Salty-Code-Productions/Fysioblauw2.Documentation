@@ -47,13 +47,30 @@ nav-menu: true
 	</dd>
 	<dt>Maand</dt>
 	<dd>
-		<!-- IMAGE NEEDS UPDATEING!-->
+		<!-- IMAGE NEEDS UPDATE!-->
 		<p><span class="image right"><img src="{% link assets/images/agenda/maand.png%}" alt="" /></span>De maand-weergavemodus bied een snel overzicht van alle behandelingen binnen de geselecteerde maand. Elke dag is aan te klikken. Wanneer dit gebeurt wordt er automatisch overgeschakeld naar de dag-weergave van de geselecteerde dag.</p>
+	</dd>
+	<dt>Behandelingen (maand)</dt>
+	<dd>
+		<!-- IMAGE NEEDS UPDATE!-->
+		<p><span class="image right"><img src="{% link assets/images/agenda/agenda.png%}" alt="" /></span>In de Behandelingen (maand) modus worden alle behandelingen van de geselecteerde maand weergegeven. Dit is door middel van een lijst, en kan daarom overzichtelijker zijn dan de Maand weergavemodus. Aangezien een patiënt vaak meerdere behandelingen binnen een maand heeft zijn de behandelingen gegroepeerd per patiënt, gesorteerd op basis van de achternaam van deze patiënten. De details van een behandeling kunnen bekeken worden door deze aan te klikken. Via het aanklikken van rechtermuisknop &rarr; Verwijder, kan de behandeling verwijderd worden.</p>
 	</dd>
 </dl>
 
-<h3>Datum navigatie</h3>
-
+<div class="row">
+	<div class="6u 12u$(small)">
+		<h3>Datum navigatie</h3>
+		<p>Een belangrijke eigenschap van een agenda is natuurlijk het kunnen navigeren tussen verschillende data. Hiervoor zijn de knoppen bovenaan de agenda bedoelt (de knoppen binnen het aangegeven rode vierkant in de afbeelding). Afhankelijk van de geselecteerde weergave modus, hebben de 'vorige' (&larr;) en 'volgende' (&rarr;) knoppen een verschillende werking:</p>
+		<ul>
+			<li>Vorige of volgende dag; bij weergavemodus 'Dag'.</li>
+			<li>Vorige of volgende week; bij weergavemodus 'Week'.</li>
+			<li>Vorige of volgende maand; bij weergavemodus '</li>
+		</ul>
+	</div>
+	<div class="6u$ 12u$(small)">
+		<img src="{% link assets/images/agenda/datum_navigatie.png%}" alt="" />
+	</div>
+</div>
 
 </div>
 </section>
