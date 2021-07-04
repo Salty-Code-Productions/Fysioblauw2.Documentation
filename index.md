@@ -8,4 +8,4 @@ author: null
 show_tile: false
 ---
 
-Alle documentatie voor Fysioblauw 2 op een rijtje.
+Alle documentatie voor Fysioblauw 2 op één plek.
